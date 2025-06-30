@@ -1,0 +1,6 @@
+framework module Pods_SwiftUI_MVVM_Map {
+  umbrella header "Pods-SwiftUI_MVVM_Map-umbrella.h"
+
+  export *
+  module * { export * }
+}

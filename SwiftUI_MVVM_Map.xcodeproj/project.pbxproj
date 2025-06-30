@@ -6,34 +6,58 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXFileReference section */
-		83D88BF22E12563400EE6B69 /* SwiftUI_MVVM_Map.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_MVVM_Map.app; sourceTree = BUILT_PRODUCTS_DIR; };
-/* End PBXFileReference section */
+/* Begin PBXBuildFile section */
+		83D88C052E12564300EE6B69 /* SwiftUI_MVVM_MapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D88C022E12564300EE6B69 /* SwiftUI_MVVM_MapApp.swift */; };
+		83D88C062E12564300EE6B69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83D88C002E12564300EE6B69 /* Assets.xcassets */; };
+		83D88C082E12570200EE6B69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D88C072E12570000EE6B69 /* AppDelegate.swift */; };
+		83D88C0B2E12576D00EE6B69 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D88C0A2E12576B00EE6B69 /* LocationManager.swift */; };
+		83D88C0E2E1257CD00EE6B69 /* GoogleMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D88C0D2E1257CC00EE6B69 /* GoogleMapView.swift */; };
+		83D88C112E1257EB00EE6B69 /* CurrentLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D88C102E1257EA00EE6B69 /* CurrentLocationView.swift */; };
+		83D88C132E125A6300EE6B69 /* UserLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D88C122E125A6100EE6B69 /* UserLocation.swift */; };
+		EDD24D1AF280EB33F445FC24 /* Pods_SwiftUI_MVVM_Map.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59B602C1A530746911D05323 /* Pods_SwiftUI_MVVM_Map.framework */; };
+/* End PBXBuildFile section */
 
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		83D88BF42E12563400EE6B69 /* SwiftUI_MVVM_Map */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SwiftUI_MVVM_Map;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
+/* Begin PBXFileReference section */
+		59B602C1A530746911D05323 /* Pods_SwiftUI_MVVM_Map.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUI_MVVM_Map.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DCA8F3818B75EFDA26A29F3 /* Pods-SwiftUI_MVVM_Map.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUI_MVVM_Map.release.xcconfig"; path = "Target Support Files/Pods-SwiftUI_MVVM_Map/Pods-SwiftUI_MVVM_Map.release.xcconfig"; sourceTree = "<group>"; };
+		6E8670B3A5445F99AC1A75CA /* Pods-SwiftUI_MVVM_Map.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUI_MVVM_Map.debug.xcconfig"; path = "Target Support Files/Pods-SwiftUI_MVVM_Map/Pods-SwiftUI_MVVM_Map.debug.xcconfig"; sourceTree = "<group>"; };
+		83D88BF22E12563400EE6B69 /* SwiftUI_MVVM_Map.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_MVVM_Map.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		83D88C002E12564300EE6B69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		83D88C022E12564300EE6B69 /* SwiftUI_MVVM_MapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_MVVM_MapApp.swift; sourceTree = "<group>"; };
+		83D88C072E12570000EE6B69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		83D88C0A2E12576B00EE6B69 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		83D88C0D2E1257CC00EE6B69 /* GoogleMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleMapView.swift; sourceTree = "<group>"; };
+		83D88C102E1257EA00EE6B69 /* CurrentLocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentLocationView.swift; sourceTree = "<group>"; };
+		83D88C122E125A6100EE6B69 /* UserLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLocation.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		83D88BEF2E12563400EE6B69 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDD24D1AF280EB33F445FC24 /* Pods_SwiftUI_MVVM_Map.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		21A15B483F3EE63FCB2F1F96 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59B602C1A530746911D05323 /* Pods_SwiftUI_MVVM_Map.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		83D88BE92E12563400EE6B69 = {
 			isa = PBXGroup;
 			children = (
-				83D88BF42E12563400EE6B69 /* SwiftUI_MVVM_Map */,
+				83D88C032E12564300EE6B69 /* SwiftUI_MVVM_Map */,
 				83D88BF32E12563400EE6B69 /* Products */,
+				E756BD0F1298EF037200B7FA /* Pods */,
+				21A15B483F3EE63FCB2F1F96 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -45,6 +69,53 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		83D88C032E12564300EE6B69 /* SwiftUI_MVVM_Map */ = {
+			isa = PBXGroup;
+			children = (
+				83D88C0F2E1257D300EE6B69 /* Controller */,
+				83D88C0C2E1257C100EE6B69 /* View */,
+				83D88C092E12575800EE6B69 /* ViewModel */,
+				83D88C002E12564300EE6B69 /* Assets.xcassets */,
+				83D88C022E12564300EE6B69 /* SwiftUI_MVVM_MapApp.swift */,
+				83D88C072E12570000EE6B69 /* AppDelegate.swift */,
+			);
+			path = SwiftUI_MVVM_Map;
+			sourceTree = "<group>";
+		};
+		83D88C092E12575800EE6B69 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				83D88C0A2E12576B00EE6B69 /* LocationManager.swift */,
+				83D88C122E125A6100EE6B69 /* UserLocation.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		83D88C0C2E1257C100EE6B69 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				83D88C0D2E1257CC00EE6B69 /* GoogleMapView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		83D88C0F2E1257D300EE6B69 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				83D88C102E1257EA00EE6B69 /* CurrentLocationView.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E756BD0F1298EF037200B7FA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6E8670B3A5445F99AC1A75CA /* Pods-SwiftUI_MVVM_Map.debug.xcconfig */,
+				6DCA8F3818B75EFDA26A29F3 /* Pods-SwiftUI_MVVM_Map.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -52,20 +123,17 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 83D88BFD2E12563600EE6B69 /* Build configuration list for PBXNativeTarget "SwiftUI_MVVM_Map" */;
 			buildPhases = (
+				6D117E28B243C1318DEE70B9 /* [CP] Check Pods Manifest.lock */,
 				83D88BEE2E12563400EE6B69 /* Sources */,
 				83D88BEF2E12563400EE6B69 /* Frameworks */,
 				83D88BF02E12563400EE6B69 /* Resources */,
+				FEBA6561A15BA874B96197E6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				83D88BF42E12563400EE6B69 /* SwiftUI_MVVM_Map */,
-			);
 			name = SwiftUI_MVVM_Map;
-			packageProductDependencies = (
-			);
 			productName = SwiftUI_MVVM_Map;
 			productReference = 83D88BF22E12563400EE6B69 /* SwiftUI_MVVM_Map.app */;
 			productType = "com.apple.product-type.application";
@@ -109,16 +177,69 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83D88C062E12564300EE6B69 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6D117E28B243C1318DEE70B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftUI_MVVM_Map-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FEBA6561A15BA874B96197E6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUI_MVVM_Map/Pods-SwiftUI_MVVM_Map-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUI_MVVM_Map/Pods-SwiftUI_MVVM_Map-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftUI_MVVM_Map/Pods-SwiftUI_MVVM_Map-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		83D88BEE2E12563400EE6B69 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83D88C0B2E12576D00EE6B69 /* LocationManager.swift in Sources */,
+				83D88C0E2E1257CD00EE6B69 /* GoogleMapView.swift in Sources */,
+				83D88C082E12570200EE6B69 /* AppDelegate.swift in Sources */,
+				83D88C132E125A6300EE6B69 /* UserLocation.swift in Sources */,
+				83D88C112E1257EB00EE6B69 /* CurrentLocationView.swift in Sources */,
+				83D88C052E12564300EE6B69 /* SwiftUI_MVVM_MapApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +369,7 @@
 		};
 		83D88BFE2E12563600EE6B69 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E8670B3A5445F99AC1A75CA /* Pods-SwiftUI_MVVM_Map.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -255,12 +377,16 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = F9HX937PTQ;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to show on map";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -276,6 +402,7 @@
 		};
 		83D88BFF2E12563600EE6B69 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DCA8F3818B75EFDA26A29F3 /* Pods-SwiftUI_MVVM_Map.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -283,12 +410,16 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = F9HX937PTQ;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to show on map";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
